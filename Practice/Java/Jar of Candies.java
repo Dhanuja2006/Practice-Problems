@@ -13,7 +13,7 @@ public class Main
 	    
 	    int no = sc.nextInt();
 	    
-	    if(N - no > k){
+	    if(N - no > k && (no != 0)){
 	        System.out.println("NUMBER OF CANDIES SOLD: "+ no );
 	        System.out.println("NUMBER OF CANDIES AVAILABLE: " + (N - no));
 	    }else{
