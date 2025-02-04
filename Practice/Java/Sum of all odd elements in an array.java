@@ -18,7 +18,7 @@ public class Main
 	            oddEleSum += arr[i];
 	    }
 	    
-	    System.out.println("Sum of elements at even positions: "+ sum_even + "\nSum of all odd elements in an array: " + oddEleSum);
+	    System.out.println( "Sum of all odd elements in an array: " + oddEleSum);
 	}
 }
 
