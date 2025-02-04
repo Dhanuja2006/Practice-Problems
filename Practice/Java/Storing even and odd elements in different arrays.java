@@ -3,22 +3,16 @@ public class Main
 {
 	public static void main(String[] args) {
 	    Scanner sc = new Scanner(System.in);
-	    int evenCnt = 0;
-	    int oddCnt = 0;
 	    
 	    int n = sc.nextInt();
 	    int arr[] = new int[n];
 	    
 	    for(int i = 0; i < n; i++){
 	        arr[i] = sc.nextInt();
-	        if(arr[i] % 2 == 0)
-	            evenCnt += 1;
-	        else
-	            oddCnt += 1;
 	    }
 	    
-	    int evenArray[] = new int[evenCnt];
-	    int oddArray[] = new int[oddCnt];
+	    int evenArray[] = new int[n];
+	    int oddArray[] = new int[n];
 	    
 	    int i = 0;
 	    int j = 0;
@@ -34,13 +28,13 @@ public class Main
 	    }
 	    
 	    System.out.print("Even elements: ");
-	    for(i = 0; i < evenCnt; i++){
-	        System.out.print(evenArray[i] + " ");
+	    for(int k = 0; k < i; k++){
+	        System.out.print(evenArray[k] + " ");
 	    }
 	    System.out.println();
 	    System.out.print("Odd elements: ");
-	    for(i = 0; i < oddCnt; i++){
-	        System.out.print(oddArray[i] + " ");
+	    for(int k = 0; k < j; k++){
+	        System.out.print(oddArray[k] + " ");
 	    }
 	}
 }
