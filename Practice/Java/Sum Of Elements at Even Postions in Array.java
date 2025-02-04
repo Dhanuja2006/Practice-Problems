@@ -1,5 +1,4 @@
 import java.util.*;
-//Sum of all elements at even position & sum of all odd elements in an array
 public class Main
 {
 	public static void main(String[] args) {
@@ -17,6 +16,6 @@ public class Main
 	    for(int i = 0; i < n; i++){
 	        if(i%2 == 0) //Sum of elements at even positions
 	            sum_even += arr[i];
-	    System.out.println("Sum of elements at even positions: "+ sum_even + "\nSum of all odd elements in an array: " + oddEleSum);
+	    System.out.println("Sum of elements at even positions: "+ sum_even );
 	}
 }
