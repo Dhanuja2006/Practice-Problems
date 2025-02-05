@@ -42,5 +42,6 @@ public class Main
 		if(!won){
 		    System.out.println("Failed: Out of Attempts");
 		}
+		sc.close();
 	}
 }
