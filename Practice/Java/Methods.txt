@@ -1,0 +1,20 @@
+
+/**Advantages of methods:
+ * Code reusability
+ * Gives structure to the progrm(Allows user to understant the program)
+ * Integration is possible only using methods
+ **/
+ 
+ /**Recursion:
+  * Base condition (Condition to exit the loop)
+  * Aurgument (Inc or Dec)
+  **/
+  
+ //Recursion is associated with backtracking and nested recursion 
+ 
+ /**
+  * Access specifier (public, private, protected, default)
+  * Static/ non-static
+  * return type
+  * no of aurguments
+  **/
