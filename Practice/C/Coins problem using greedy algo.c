@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void greedy(int coins[], int a){
-    int l_coins = 4;
+void greedy(int coins[], int a, int l_coins){
+    
     for(int i = 0; i < l_coins; i++){
         while(a >= coins[i]){
             printf("%d ", coins[i]);
@@ -16,5 +16,6 @@ void main()
     int a;
     printf("Enter the amt: ");
     scanf("%d", &a);
-    greedy(coins, a);
+    int l_coins = sizeof(coins)/sizeof(coins[0]);
+    greedy(coins, a, l_coins);
 }
